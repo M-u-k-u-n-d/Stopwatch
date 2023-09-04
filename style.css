@@ -1,0 +1,64 @@
+body {
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    color: #d7dfe4;
+}
+
+.digit {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#btn-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+     border: 0px;
+    cursor: pointer;
+}
+
+#start{
+    background-color: #FF9933;
+}
+#stop{
+    background-color: white;
+}
+#reset{
+   background-color: #138808;
+}
+
+@media only screen and (max-width: 850px) {
+    .digit {
+        font-size: 100px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .digit {
+        font-size: 40px;
+    }
+
+    .txt {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .btn {
+        margin: 0;
+    }
+}
